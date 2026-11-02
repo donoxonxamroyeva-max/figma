@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+ul {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+
+
+    li {
+        list-style-type: none;
+    }
+
+}
+
+.left {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+
+    font-size: 60px;
+
+
+}
+
+.right {
+    width: 634;
+    height: 578;
+    margin-right: 45px;
+
+}
+
+
+.logo {
+    display: flex;
+
+    gap: 10px;
+
+    align-items: center;
+
+
+}
+
+.continer {
+    display: flex;
+    margin-left: 52px;
+    margin-right: 52px;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+
+}
+
+.section {
+
+    .text {
+        width: 100%;
+        height: 250px;
+        background-color: rgb(73, 13, 13);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+        h1 {
+            color: red;
+        }
+    }
+
+
+    .box {
+        width: 270px;
+        height: 230px;
+        background-color: rgb(232, 228, 228);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+        margin-left: 60px;
+        gap: 30px;
+        border-radius: 10px;
+
+    }
+
+}
+
+.games {
+    .test-game {
+        font-size: 60px;
+    }
+
+    img {
+        width: 697px;
+        height: 474px;
+
+        gap: 24px;
+
+    }
+
+    display: flex;
+    margin-left: 52px;
+    margin-right: 52px;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+}
+
+.card {
+    display: flex;
+    margin-left: 52px;
+    margin-right: 52px;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+
+    .left {
+
+
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+
+        margin-right: 45px;
+
+        font-size: 60px;
+    }
+
+    .right {
+        h2 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 25px;
+        }
+
+        margin-right: 45px;
+        gap: 20px;
+    }
+
+
+}
+
+.main {
+    display: flex;
+    margin-left: 52px;
+    gap: 40px;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    width: 1199.65625;
+    height: 578;
+    top: 200px;
+    left: 156.5px;
+    margin-right: 52px;
+
+
+
+}
+
+button {
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 12px;
+    padding-top: 14px;
+    padding-right: 30px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    color: white;
+
+}
+
+.fream {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(73, 13, 13);
+
+}
+
+.back {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.text-box {
+
+    display: flex;
+    margin-left: 52px;
+    margin-right: 52px;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.red {
+    display: flex;
+    margin-left: 52px;
+    margin-right: 52px;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(73, 13, 13);
+
+}
+
+.red-text {
+    color: white;
+    gap: 25px;
+}
+
+.red-img {
+    display: block;
+}
+
+.white {
+    width: 1512;
+    height: 312;
+    padding: 100px;
+
+
+}
+
+.final {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    width: 100%;
+     margin-left: 52px;
+    margin-right: 52px;
+    padding: 25px;
+    height: 500PX;
+
+
+}
+
+.final-right {
+    ul {
+      
+        align-items: center;
+        display: flex;
+    
+
+
+        li {
+            list-style-type: none;
+        }
+color: white;
+width: 820px;
+
+
+    }
+}
+.final-left{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+color: white;
+    font-size: 20px;
+    display: block;
+    width: 420px;
+
+}
+.input{
+  
+    border-radius: 12px;
+    padding-top: 14px;
+    padding-right: 30px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    color: white;
+    background-color: black;
+}
+.final-left>h2{
+    display: block;
+}
+.finalll{
+    display: flex;
+    margin-left: 52px;
+    margin-right: 52px;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+background-color: red;
+color: white;
+width: 100%;
+}
